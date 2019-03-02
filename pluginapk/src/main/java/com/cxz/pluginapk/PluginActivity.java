@@ -1,12 +1,11 @@
 package com.cxz.pluginapk;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PluginActivity extends AppCompatActivity {
+public class PluginActivity extends com.cxz.pluginlib.PluginActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plugin);
     }
